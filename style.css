@@ -5,7 +5,7 @@
 
 /* Progress bar */
 
-/* .progress-bar {
+.progress-bar {
   width: 350px;
   height: 10px;
   background-color: rgb(228, 228, 228);
@@ -42,10 +42,10 @@
   to {
     width: 100%;
   }
-} */
+}
 
 /* Progress circle */
-.progress {
+/* .progress {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -57,4 +57,4 @@
 .progress-circle {
   stroke-dasharray: 189;
   stroke-dashoffset: 189;
-}
+} */
