@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Progress bar */
+
+/* .progress-bar {
+  width: 350px;
+  height: 10px;
+  background-color: rgb(228, 228, 228);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.loading {
+  width: max-content;
+  height: max-content;
+  font-size: 30px;
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: limegreen;
+  border-radius: 30px;
+  animation: move 3s linear;
+}
+
+@keyframes move {
+  to {
+    width: 100%;
+  }
+} */
+
+/* Progress circle */
+.progress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.progress-circle {
+  stroke-dasharray: 189;
+  stroke-dashoffset: 189;
+}
